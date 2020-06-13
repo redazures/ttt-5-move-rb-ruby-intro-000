@@ -1,10 +1,14 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
+
+#puts converted_input
+# Code your CLI Here
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 user_input=gets.strip
 user_input=user_input.to_i
 converted_input = input_to_index(user_input)
-puts converted_input
-# Code your CLI Here
+board=[" "," "," "," "," "," "," "," "," "]
+update_array_at_with(board,converted_input,"X")
+display_board(board)
