@@ -12,5 +12,6 @@ end
 
 def input_to_index(index)
   index=index.to_i
+  index=index-1
 end
 # code your input_to_index and move method here!
