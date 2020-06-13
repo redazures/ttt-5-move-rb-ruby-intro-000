@@ -10,7 +10,7 @@ end
 #  array[index]=value
 #end
 
-def move(array,index,value)
+def move(array,index,value="x")
   array[index]=value
 end
 
