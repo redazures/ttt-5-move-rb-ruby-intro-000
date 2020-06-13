@@ -9,9 +9,7 @@ puts "Where would you like to go?"
 user_input=gets.strip
 #user_input=user_input.to_i
 converted_input = input_to_index(user_input)
-puts converted_input
-puts converted_input+2
-
+move=converted_input-1
 #board=[" "," "," "," "," "," "," "," "," "]
 #update_array_at_with(board,converted_input,"X")
 #display_board(board)
